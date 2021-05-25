@@ -1,0 +1,174 @@
+.tab {
+  height: 7vh;
+  min-height: 40px !important;
+  width: 100%;
+  border-bottom: 1px solid darkgrey !important;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.tabBar {
+  height: 7vh;
+  min-height: 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  width: 70%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  position: absolute;
+  left: 0;
+}
+
+.tabBar::-webkit-scrollbar {
+  display: none;
+}
+
+.tabBar__tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 190px !important;
+  min-height: 20px !important;
+  width: 190px !important;
+  padding: auto 5px;
+  border-right: 1px solid gray;
+}
+
+.nonFocus {
+  font-size: 14px !important;
+  margin: auto 10px;
+  font-weight: bold !important;
+  color: rgb(167, 164, 164) !important;
+}
+
+.focus {
+  font-size: 14px !important;
+  margin: auto 10px;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.addDeleteButton {
+  background-color: transparent !important;
+  outline-width: 0 !important;
+  border: 1px solid black;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.modal {
+  position: fixed !important;
+  top: 30% !important;
+  left: 35% !important;
+  min-width: 25% !important;
+  width: fit-content !important;
+  height: fit-content;
+  border: 1px solid whitesmoke !important;
+  border-radius: 5px !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) !important;
+  padding: 30px !important;
+  background-color: whitesmoke;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.modal-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding-bottom: 15px !important;
+  border-bottom: 1px solid darkgrey !important;
+}
+
+.modal-title {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.modal-body {
+  height: 80px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  border-bottom: 1px solid darkgrey !important;
+}
+
+.modalInput {
+  width: 90% !important;
+  border: 1px solid darkgrey !important;
+  outline-width: 0 !important;
+  height: 30px !important;
+  padding: auto 10px !important;
+  border-radius: 5px !important;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+.modal-footer {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-top: 15px !important;
+}
+
+.btn {
+  border: 1px solid grey !important;
+  outline-width: 0 !important;
+  border-radius: 5px !important;
+  padding: 5px 10px !important;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.btn-danger {
+  background-color: red !important;
+  color: white !important;
+}
+
+.btn-danger:hover {
+  background-color: white !important;
+  color: red !important;
+}
+
+.btn-success {
+  background-color: green !important;
+  color: white !important;
+}
+
+.btn-success:hover {
+  background-color: white !important;
+  color: green !important;
+}
+
+.btn-chevron {
+  outline-width: 0;
+  border: none;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 5vh;
+  min-height: 40px !important;
+}
+
+.btn-left {
+  position: absolute;
+  right: 27.4%;
+  width: 2.5% !important;
+}
+
+.btn-right {
+  position: absolute !important;
+  right: 25%;
+  width: 2.5% !important;
+}

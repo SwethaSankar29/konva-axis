@@ -1,0 +1,8 @@
+{
+  "short_name": "M2D",
+  "name": "Morgan2Design",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

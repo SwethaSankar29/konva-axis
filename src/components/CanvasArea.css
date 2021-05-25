@@ -1,0 +1,11 @@
+.draw {
+  width: 75%;
+  height: 89vh !important;
+  cursor: crosshair !important;
+}
+
+.selection {
+  width: 75%;
+  height: 89vh;
+  cursor: default !important;
+}

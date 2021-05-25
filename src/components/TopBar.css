@@ -1,0 +1,13 @@
+.topBar {
+  width: 100%;
+  height: 5vh;
+  min-height: 40px !important;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid darkgrey !important;
+}
+
+.topBar > h3 {
+  margin-left: 50px;
+  font-size: 18px !important;
+}
